@@ -1,0 +1,24 @@
+{
+  "name": "front-end-developer-interview-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozywuli/front-end-developer-interview-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozywuli/front-end-developer-interview-guide/issues"
+  },
+  "homepage": "https://github.com/ozywuli/front-end-developer-interview-guide#readme"
+}
