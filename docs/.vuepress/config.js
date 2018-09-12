@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/front-end-developer-interview-guide/',
     title: "Hello VuePress",
     description: "Just playing around",
     themeConfig: {
