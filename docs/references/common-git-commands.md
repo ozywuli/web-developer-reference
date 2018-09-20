@@ -38,12 +38,27 @@ git reset --hard # remove all staged and unstaged files
 git checkout -- . # remove all staged and unstaged files in the working directory
 ```bash
 
-
 Remove stray file(s) and/or folder(s) after they've been committed
 
 ```bash
 git rm --cached README.md # remove a single file
 git rm -r --cached sample-directory # remove directory and its content
+```
+
+Show history of HEAD
+```bash
+git reflog show
+```
+
+Reset to an older commit
+```bash
+git reset --hard 0d1d7fc32 # --hard will discard all local changes
+git reset --keep HEAD@{0} # --keep is safer than --hard
+```
+
+Undo a git pull
+```bash
+git reset --hard HEAD^
 ```
 
 Read logs
@@ -112,6 +127,15 @@ Create and switch to a new branch
 git checkout -b "feat-hover"
 ```
 
+Checkout an older commit
+```bash
+git checkout 0d1d7fc32
+```
+
+Checkout an older commit and make changes there
+```bash
+git checkout -b old-state 0d1d7fc32
+```
 
 ## Remotes
 
