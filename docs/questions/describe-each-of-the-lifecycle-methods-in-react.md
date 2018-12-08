@@ -1,5 +1,5 @@
 ---
-title: 'Describe each of the lifecycle methods in React'
+title: "Describe each of the lifecycle methods in React"
 date: 03-28-2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Data Manipulation with JavaScript'
+title: "Data Manipulation with JavaScript"
 date: 12-07-2018
 ---
 

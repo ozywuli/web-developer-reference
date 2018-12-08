@@ -1,5 +1,5 @@
 ---
-title: 'What's the difference between an "attribute" and a "property"?'
+title: "What's the difference between an \"attribute\" and a \"property\"?"
 date: 03-28-2018
 ---
 

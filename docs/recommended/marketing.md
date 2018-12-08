@@ -1,5 +1,5 @@
 ---
-title: 'Marketing'
+title: "Marketing"
 date: 03-28-2018
 ---
 

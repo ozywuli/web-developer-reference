@@ -1,6 +1,6 @@
 ---
 title: "How does prototypal inheritance work?"
-date: 3-25-2018
+date: 03-25-2018
 ---
 
 - Every object has a prototype

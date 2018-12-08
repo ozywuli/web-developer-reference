@@ -1,6 +1,6 @@
 ---
-title: ""
-date: 3-25-2018
+title: "What's the difference between host objects and native objects?"
+date: 03-25-2018
 ---
 
 Native objects, or global objects, are supplied by the JS programming language

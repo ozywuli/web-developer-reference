@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Can you give an example for destructuring an object or an array?"
 date: 03-28-2018
 ---
 
