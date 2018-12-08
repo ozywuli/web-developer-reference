@@ -14,5 +14,5 @@ npm run docs:dev
 
 ```bash
 sh deploy.sh
-// lives at https://ozywuli.github.io/web-developer-guide/
+// lives at https://ozywuli.github.io/web-developer-reference/
 ```

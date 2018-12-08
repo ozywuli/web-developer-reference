@@ -1,7 +1,7 @@
 module.exports = {
-    base: '/front-end-developer-interview-guide/',
-    title: "Hello VuePress",
-    description: "Just playing around",
+    base: '/web-developer-reference/',
+    title: "Web Developer Reference",
+    description: "by Ozy",
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
