@@ -89,6 +89,11 @@ Grab your latest stash
 git stash apply
 ```
 
+Grab your latest stash and then removes it from the stash list
+```bash
+git stash pop
+```
+
 List all stashes
 
 ```bash
@@ -118,6 +123,8 @@ Clear all stashes
 ```bash
 git stash clear
 ```
+
+
 
 ## Checkouts
 
@@ -151,4 +158,23 @@ Add remote
 git remote add origin <url>
 ```
 
+Add a remote for an upstream repo (the main repo you forked from)
 
+```bash
+git remote add upstream <url>
+```
+
+
+## Rebase
+
+Modify a specific commit
+---
+// go to a specific commit
+git rebase --interactive 'bbc643cd^'
+
+// commit with the same message
+git commit --all --amend --no-edit
+
+// return to the previous head commit
+git rebase --continue
+---

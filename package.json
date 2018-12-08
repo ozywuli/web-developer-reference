@@ -1,5 +1,5 @@
 {
-  "name": "front-end-developer-interview-guide",
+  "name": "web-developer-reference",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozywuli/front-end-developer-interview-guide.git"
+    "url": "git+https://github.com/ozywuli/web-developer-guide.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ozywuli/front-end-developer-interview-guide/issues"
+    "url": "https://github.com/ozywuli/web-developer-guide/issues"
   },
-  "homepage": "https://github.com/ozywuli/front-end-developer-interview-guide#readme"
+  "homepage": "https://github.com/ozywuli/web-developer-guide#readme"
 }
