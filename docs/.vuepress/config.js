@@ -9,6 +9,7 @@ module.exports = {
         ],
         sidebar: [
             ['/', 'Home'],
+            ['/algorithms/', 'Algorithms'],
             ['/questions/', 'Questions'],
             ['/references/', 'References']
         ]
