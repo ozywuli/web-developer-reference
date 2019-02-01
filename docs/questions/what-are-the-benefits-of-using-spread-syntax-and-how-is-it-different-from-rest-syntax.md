@@ -85,3 +85,4 @@ cars('ford', 'honda', 'bmw');
 # References
 
 [https://stackoverflow.com/questions/33898512/spread-operator-vs-rest-parameter-in-es2015-es6](https://stackoverflow.com/questions/33898512/spread-operator-vs-rest-parameter-in-es2015-es6)
+[https://stackoverflow.com/questions/33898512/spread-syntax-vs-rest-parameter-in-es2015-es6](https://stackoverflow.com/questions/33898512/spread-syntax-vs-rest-parameter-in-es2015-es6)

@@ -3,14 +3,22 @@ title: 'What is TypeScript?'
 date: 03-28-2018
 ---
 
+## Benefits of type
+
+- eliminates undesirable code from being run (by being pruned during compile time)
+- reality itself is typed (you cant add lengths to weight and vice versa)
+- adding two lengths of different units will cause a compile error
+-
+
 ## Benefits
 
 - optional static typing
-- type inference
+- type inference: omit irrelevant types
 - access to the latest JS features
 - compile down to a version of JS that runs on all browsers
-- great tooling (intellisense
-
+- improve tooling (intellisense)
+- helps modify old codebases with more confidence
+- useful reference: less time figuring out what upstream API provides in terms of payload and return types
 
 ### optional static typing
 
@@ -30,3 +38,6 @@ date: 03-28-2018
 
 ## References
 
+[https://softwareengineering.stackexchange.com/questions/215482/what-are-the-safety-benefits-of-a-type-system](https://softwareengineering.stackexchange.com/questions/215482/what-are-the-safety-benefits-of-a-type-system)
+[https://www.reddit.com/r/javascript/comments/78m8fp/eli5_the_benefits_of_typescript/](https://www.reddit.com/r/javascript/comments/78m8fp/eli5_the_benefits_of_typescript/)
+[https://softwareengineering.stackexchange.com/questions/257450/why-is-type-inference-useful](https://softwareengineering.stackexchange.com/questions/257450/why-is-type-inference-useful)

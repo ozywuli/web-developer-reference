@@ -29,22 +29,6 @@ Commit files in the staging area, that is, add logs for tracked files
 git commit -m "add README" # commit with a message
 ```
 
-Remove file(s) and/or folder(s) from staging
-
-```bash
-git reset HEAD README.md # remove a single file or folder from staging
-git reset HEAD . # from every file and folder from staging
-git reset --hard # remove all staged and unstaged files
-git checkout -- . # remove all staged and unstaged files in the working directory
-```bash
-
-Remove stray file(s) and/or folder(s) after they've been committed
-
-```bash
-git rm --cached README.md # remove a single file
-git rm -r --cached sample-directory # remove directory and its content
-```
-
 Show history of HEAD
 ```bash
 git reflog show
@@ -54,11 +38,6 @@ Reset to an older commit
 ```bash
 git reset --hard 0d1d7fc32 # --hard will discard all local changes
 git reset --keep HEAD@{0} # --keep is safer than --hard
-```
-
-Undo a git pull
-```bash
-git reset --hard HEAD^
 ```
 
 Read logs
@@ -74,13 +53,51 @@ git push # if default remote has been set
 git push <remote> <branch> # if default remote has not been set
 ```
 
+## Undo
+
+Remove a file from staging
+```
+git reset <file>
+```
+
+Reset all files against a branch
+```bash
+git reset --soft <branch> # undo commits but keep all files in staging
+git reset HEAD^ # undo commits and remove all files from staging
+git reset --hard <branch> # undo all changes since last commit on a specific branch
+```
+
+Remove file(s) and/or folder(s) from staging
+
+```bash
+git clean -df # clear all unstaged files
+git reset HEAD <file> # remove a single file or folder from staging
+git reset HEAD . # from every file and folder from staging
+git reset --hard # remove all staged and unstaged files
+```
+
+
+
+Remove stray file(s) and/or folder(s) after they've been committed (this is dangerous)
+[https://stackoverflow.com/a/21171527/3260090](https://stackoverflow.com/a/21171527/3260090)
+
+```bash
+git rm --cached README.md # remove a single file
+git rm -r --cached sample-directory # remove directory and its content
+```
+
+Undo a git pull
+```bash
+git reset --hard HEAD^
+```
+
 ## Stashes
 
 Stash your changes
 
 ```bash
 git stash
-git stash push -m "stash README.md" # create a stash log with a comment
+git stash save "stash README.md" # create a stash log with a comment
 ```
 
 Grab your latest stash
