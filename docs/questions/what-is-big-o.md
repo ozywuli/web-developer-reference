@@ -24,7 +24,7 @@ Big O n square
 
 ## Types
 
-O(1) - constant
+*O(1) - constant*
 
 - object lookup (aka hasing or memoization)
 - is integer even or odd?
@@ -35,15 +35,15 @@ O(1) - constant
 - remove an item in a linked list
 - append an item to the end of a linked list
 
-O(log n) - logarithmic
+*O(log n) - logarithmic*
 
 - binary search
 
-O(n log n) - linear logarithmic
+*O(n log n) - linear logarithmic*
 
 -
 
-O(n) - linear
+*O(n) - linear*
 
 - single loop
 - `toUpperCase()`
@@ -52,16 +52,16 @@ O(n) - linear
 - `Set` remove duplicates
 - find an item by index in a linked list
 
-O(n^2) - quadratic
+*O(n^2) - quadratic*
 
 - selection sort
 
-O(2^n) - exponential
+*O(2^n) - exponential*
 
 - brute force matrix chain multiplication
 - sort()
 
-O(n!) - n factorial
+*O(n!) - n factorial*
 
 - travelling salesperson
 
