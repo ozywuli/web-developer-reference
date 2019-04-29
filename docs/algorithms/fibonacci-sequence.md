@@ -24,6 +24,18 @@ Solution 3
   (<a href='https://codepen.io/ozywuli'>@ozywuli</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+Solution 4
+
+```js
+ function fib(n) {
+ 	return [...Array(n)].reduce((acc, val, i) => {
+    console.log(val)
+  	return acc.concat(i > 1 ? acc[i - 1] + acc[i - 2] : i);
+  }, [])
+ }
+ ```
+
+
 ## References
 
 [https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e](https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e)

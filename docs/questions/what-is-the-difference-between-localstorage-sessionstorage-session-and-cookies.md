@@ -16,7 +16,7 @@ date: 03-28-2018
 
 - same API as localStorage
 - `sessionStorage` stores information as long as the session goes, usually until the user closes the tab/browser.
-- 
+-
 
 ## cookies
 
@@ -43,9 +43,11 @@ date: 03-28-2018
 ## References
 
 [https://alligator.io/js/introduction-localstorage-sessionstorage/](https://alligator.io/js/introduction-localstorage-sessionstorage/)
-
+[https://www.justinweiss.com/articles/how-rails-sessions-work/](https://www.justinweiss.com/articles/how-rails-sessions-work/)
 [https://stackoverflow.com/questions/6339783/what-is-the-difference-between-sessions-and-cookies-in-php](https://stackoverflow.com/questions/6339783/what-is-the-difference-between-sessions-and-cookies-in-php)
 [https://www.reddit.com/r/webdev/comments/3c9mtg/eli5_how_are_cookies_and_sessions_used_for_logged/](https://www.reddit.com/r/webdev/comments/3c9mtg/eli5_how_are_cookies_and_sessions_used_for_logged/)
 [https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
 [https://stackoverflow.com/questions/19867599/what-is-the-difference-between-localstorage-sessionstorage-session-and-cookies](https://stackoverflow.com/questions/19867599/what-is-the-difference-between-localstorage-sessionstorage-session-and-cookies)
 [https://stackoverflow.com/questions/16855680/are-there-any-drawbacks-to-using-localstorage-instead-of-cookies](https://stackoverflow.com/questions/16855680/are-there-any-drawbacks-to-using-localstorage-instead-of-cookies)
+[https://stackoverflow.com/questions/17000835/token-authentication-vs-cookies](https://stackoverflow.com/questions/17000835/token-authentication-vs-cookies)
+[https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide](https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide)

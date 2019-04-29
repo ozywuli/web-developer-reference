@@ -22,6 +22,7 @@ Strengths
   - initializer infrastructure  (application and instance initializers)
 - strong conventions that make it easy for developers to onboard
 - Stable and offers an upgrade path
+- less boilerplate and setup
 
 Weaknesses
 - dated or unsuitable patterns (controllers) [https://guides.emberjs.com/release/controllers/](https://guides.emberjs.com/release/controllers/)

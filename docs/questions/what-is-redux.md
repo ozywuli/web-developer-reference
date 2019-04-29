@@ -58,6 +58,14 @@ The store:
 
 ### Dumb component
 
+### Don't mutate date in reducers
+
+- only props that change are cloned for the next state of the store
+- Redux can't tell if state has changed if mutated directly so store won't be updated
+- lose the benefits of immutability
+- lose debugging benefits (Redux devtools, time travelling debug)
+
+
 ## Three Princples
 - single source of truth
 - read-only state
@@ -66,3 +74,6 @@ The store:
 ## References
 
 [https://www.youtube.com/watch?v=1w-oQ-i1XB8](https://www.youtube.com/watch?v=1w-oQ-i1XB8)
+[https://github.com/reduxjs/redux/issues/328](https://github.com/reduxjs/redux/issues/328)
+[https://stackoverflow.com/questions/46371129/rewriting-state-in-redux](https://stackoverflow.com/questions/46371129/rewriting-state-in-redux)
+[https://redux.js.org/faq/immutable-data#why-does-a-reducer-mutating-the-state-prevent-react-redux-from-re-rendering-a-wrapped-component](https://redux.js.org/faq/immutable-data#why-does-a-reducer-mutating-the-state-prevent-react-redux-from-re-rendering-a-wrapped-component)

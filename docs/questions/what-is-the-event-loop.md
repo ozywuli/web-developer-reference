@@ -5,9 +5,15 @@ date: 03-28-2018
 
 ## What is event loop? What is the difference between call stack and task queue?
 
+Call stack is what's processed during the event loop.
+When the stack is empty, JS will fill the stack with items,
+if any, from the queue. The queue is usually filled with
+callback functions and async operations.
+
 - The concurrency model is the event loop
 - it creates two queues: one for asynchronous functions, and the other for temporal functions.
 - function calls form a **stack** of frames
+    - LIFO - last in, first out (last is the top of the stack)
     - function calls are by stacking from the bottom
     - functions in the stack are executed from top to bottom and removed along the way
 - Objects are allocated in a **heap**, which is mostly unstructured region of memory
@@ -20,7 +26,7 @@ date: 03-28-2018
     - concurrent
 - properties
     - Web APIS (DOM, setTimeout, XMLHttpRequest),
-    - call stack: one thread == one call sack == one thing at a time
+    - call stack: one thread == one call stack == one thing at a time
     - callback queue
     - heap
 - code that runs slowly are "blocking"

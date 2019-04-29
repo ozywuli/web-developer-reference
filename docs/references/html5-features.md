@@ -31,13 +31,14 @@ date: 01-08-2019
 
 ## Features
 
-- geolocation
 - localStorage
-- device orientatiion
+- SVG
+- geolocation
+- device orientation
 - websockets
 - webRTC
 - webGL
-- SVG
+
 
 
 ## References

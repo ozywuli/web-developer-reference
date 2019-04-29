@@ -16,3 +16,15 @@ Solution 2
   See the Pen <a href='https://codepen.io/ozywuli/pen/RvZKZg/'>Palindrome (Solution 1)</a> by ozywuli
   (<a href='https://codepen.io/ozywuli'>@ozywuli</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+Solution 3
+
+<iframe width="100%" height="300" src="//jsfiddle.net/ozywuli/Lhe4gk9z/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+Solution 4
+
+<iframe width="100%" height="300" src="//jsfiddle.net/ozywuli/co45x9gq/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+Solution 5
+
+<iframe width="100%" height="300" src="//jsfiddle.net/ozywuli/kwvtqh4n/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

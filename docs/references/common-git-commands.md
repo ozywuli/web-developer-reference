@@ -186,12 +186,21 @@ git remote add upstream <url>
 
 Modify a specific commit
 ---
-// go to a specific commit
+# go to a specific commit
 git rebase --interactive 'bbc643cd^'
 
-// commit with the same message
+# commit with the same message
 git commit --all --amend --no-edit
 
-// return to the previous head commit
+# return to the previous head commit
 git rebase --continue
 ---
+
+
+## References
+
+[https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git)
+[https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset](https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset)
+[https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+[https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x](https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x)
+[https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c](https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c)

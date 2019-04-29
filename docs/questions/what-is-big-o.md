@@ -38,10 +38,15 @@ Big O n square
 *O(log n) - logarithmic*
 
 - binary search
+- divide and conquer
+- looking up a number in a phone book
+- either or choices but only one is chosen
+
+[https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly)
 
 *O(n log n) - linear logarithmic*
 
--
+- sort then perform log
 
 *O(n) - linear*
 

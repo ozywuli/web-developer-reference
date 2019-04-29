@@ -37,3 +37,7 @@ var twoSum = function(nums, target) {
 Solution 2
 
 <iframe width="100%" height="300" src="//jsfiddle.net/ozywuli/enh8rkdm/13/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+Solution 3
+
+<iframe width="100%" height="300" src="//jsfiddle.net/ozywuli/82f7bjue/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

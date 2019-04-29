@@ -3,6 +3,13 @@ title: "What is declarative programming?"
 date: 01-08-2019
 ---
 
+## Qualities
+- minimal to no side effects
+- pure functions
+- immutable data
+- higher order functions
+- what should be accomplished by describing a goal
+
 Imperative -> how
 Declarative -> what
 
