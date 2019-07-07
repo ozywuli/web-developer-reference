@@ -117,6 +117,8 @@ but for numbers is inclusive
 
 ## Limit
 
+Limit the number of rows selected from a table
+
 `LIMIT`
 
 ```sql

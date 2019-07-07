@@ -31,6 +31,8 @@ date: 03-18-2019
 
 - Test the smallest blocks of code
 - Usually individual functions, methods, components, and modules
+- Help you design more robust components
+- doesn't touch the database, network, file system, or any special config
 
 ### Integration
 
@@ -57,3 +59,4 @@ date: 03-18-2019
 
 [https://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test](https://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)
 [https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
+[http://www.agitar.com/downloads/TheWayOfTestivus.pdf](http://www.agitar.com/downloads/TheWayOfTestivus.pdf)
